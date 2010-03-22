@@ -18,3 +18,6 @@ https://www.ohloh.net/p/themes/download
 For more info please visit my website 
 http://www.prabir.me
 Prabir Shrestha
+--------------------------------------
+Changes to 1.1
+* fixed F# interative window to be black in color for Prabir_DarkTheme_vs2010_with_Resharper_support.vssettings only
