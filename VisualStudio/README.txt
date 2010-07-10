@@ -11,8 +11,7 @@ Prabir's Dark Theme for Notepad++ requires Consolas Font which comes preinstalle
 
 Themes for others Editors such as eclipse, notepad++ and vim can be downloaded at https://www.ohloh.net/p/themes/download
 
-Source code repository can be found at 
-https://www.ohloh.net/p/themes/download
+or you can find the source code repository at http://github.com/prabirshrestha/dark-themes
 
 
 For more info please visit my website 

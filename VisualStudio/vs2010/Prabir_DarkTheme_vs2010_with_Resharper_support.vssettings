@@ -405,6 +405,7 @@
 				<PropertyValue name="AutoIdOnPasteSourceView">-1</PropertyValue>
 				<PropertyValue name="RulerAndGridGridSpacing">20</PropertyValue>
 				<PropertyValue name="EditorOptionFlags">8388616</PropertyValue>
+				<PropertyValue name="JsMaxCacheFiles">5</PropertyValue>
 				<PropertyValue name="IdleYield">-1</PropertyValue>
 				<PropertyValue name="IdleParseDelay">750</PropertyValue>
 				<PropertyValue name="InsertAttrValueQuotesTyping">0</PropertyValue>
@@ -764,19 +765,6 @@
 			<PropertyValue name="Dot&amp;fuscator Software Services.Unicode">false</PropertyValue>
 			<PropertyValue name="Dot&amp;fuscator Software Services.Package">{00000000-0000-0000-0000-000000000000}</PropertyValue>
 			<PropertyValue name="Dot&amp;fuscator Software Services.NameID">0</PropertyValue>
-			<PropertyValue name="xunit - x86.Command">%vsspv_visualstudio_dir%\Addins\xunit-1.5\xunit.gui.x86.exe</PropertyValue>
-			<PropertyValue name="xunit - x86.Arguments">$(BinDir)/$(TargetName)$(TargetExt)</PropertyValue>
-			<PropertyValue name="xunit - x86.InitialDirectory">$(BinDir)</PropertyValue>
-			<PropertyValue name="xunit - x86.SourceKeyName"/>
-			<PropertyValue name="xunit - x86.UseOutputWindow">false</PropertyValue>
-			<PropertyValue name="xunit - x86.PromptForArguments">false</PropertyValue>
-			<PropertyValue name="xunit - x86.CloseOnExit">false</PropertyValue>
-			<PropertyValue name="xunit - x86.IsGUIapp">true</PropertyValue>
-			<PropertyValue name="xunit - x86.SaveAllDocs">true</PropertyValue>
-			<PropertyValue name="xunit - x86.UseTaskList">false</PropertyValue>
-			<PropertyValue name="xunit - x86.Unicode">false</PropertyValue>
-			<PropertyValue name="xunit - x86.Package">{00000000-0000-0000-0000-000000000000}</PropertyValue>
-			<PropertyValue name="xunit - x86.NameID">0</PropertyValue>
 			<PropertyValue name="Create &amp;GUID.Command">%vsspv_windows_sdk_dir%\bin\NETFX 4.0 Tools\guidgen.exe</PropertyValue>
 			<PropertyValue name="Create &amp;GUID.Arguments"/>
 			<PropertyValue name="Create &amp;GUID.InitialDirectory">%vsspv_windows_sdk_dir%\bin\NETFX 4.0 Tools\</PropertyValue>
@@ -829,7 +817,7 @@
 			<PropertyValue name="Spy&amp;++.Unicode">false</PropertyValue>
 			<PropertyValue name="Spy&amp;++.Package">{F1C25864-3097-11D2-A5C5-00C04F7968B4}</PropertyValue>
 			<PropertyValue name="Spy&amp;++.NameID">10051</PropertyValue>
-			<PropertyValue name="ToolNames">Dot&amp;fuscator Software Services, xunit - x86, Create &amp;GUID, Error Loo&amp;kup, ATL/MFC &amp;Trace Tool, Spy&amp;++</PropertyValue>
+			<PropertyValue name="ToolNames">Dot&amp;fuscator Software Services, Create &amp;GUID, Error Loo&amp;kup, ATL/MFC &amp;Trace Tool, Spy&amp;++</PropertyValue>
 		</Category>
 		<Category name="Environment_CallBrowser" Category="{50B05A5D-9174-48eb-851A-B1C616A0B43D}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_CallBrowser" PackageName="Visual Studio Environment Package">
 			<PropertyValue name="CallBrowserSortAlphabetically">true</PropertyValue>
@@ -876,7 +864,7 @@
 						<Column Name="Bitmap" Width="17" Visibility="Visible" SortPriority="-1" SortDirection="Up"/>
 						<Column Name="ProviderKnowsOrder" Width="19" Visibility="Visible" SortPriority="-1" SortDirection="Up"/>
 						<Column Name="Checked" Width="28" Visibility="Invisible" SortPriority="-1" SortDirection="Up"/>
-						<Column Name="Description" Width="592" Visibility="Visible" SortPriority="0" SortDirection="Up"/>
+						<Column Name="Description" Width="484" Visibility="Visible" SortPriority="0" SortDirection="Up"/>
 						<Column Name="File" Width="120" Visibility="Visible" SortPriority="-1" SortDirection="Up"/>
 						<Column Name="Line" Width="70" Visibility="Visible" SortPriority="-1" SortDirection="Up"/>
 						<Column Name="Column" Width="70" Visibility="Visible" SortPriority="-1" SortDirection="Up"/>
@@ -897,7 +885,7 @@
 			<PropertyValue name="NumberOfDefaultEditors">0</PropertyValue>
 		</Category>
 		<Category name="Environment_UnifiedFind" Category="{DF00ADDF-C14C-4ffd-9325-634FD605850B}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_UnifiedFind" PackageName="Visual Studio Environment Package">
-			<PropertyValue name="Options">MatchCase=0 WholeWord=0 Hidden=0 Up=0 Selection=0 Block=0 KeepCase=0 SubFolders=1 KeepOpen=0 NameOnly=0 Plain Document Find</PropertyValue>
+			<PropertyValue name="Options">MatchCase=0 WholeWord=0 Hidden=0 Up=0 Selection=0 Block=0 KeepCase=0 SubFolders=1 KeepOpen=0 NameOnly=0 Plain Files Find</PropertyValue>
 			<PropertyValue name="Document Options">MatchCase=0 WholeWord=0 Hidden=0 Up=0 Selection=0 Block=0 KeepCase=0 SubFolders=1 KeepOpen=0 NameOnly=0 Plain Document Find</PropertyValue>
 			<PropertyValue name="FiF Options">MatchCase=0 WholeWord=0 Hidden=0 Up=0 Selection=0 Block=0 KeepCase=0 SubFolders=1 KeepOpen=0 NameOnly=0 Plain Files Find</PropertyValue>
 			<PropertyValue name="Result list">1</PropertyValue>
@@ -915,7 +903,7 @@
 			<PropertyValue name="HideFindAfterMatchFound">0</PropertyValue>
 			<PropertyValue name="HitReplaced">1</PropertyValue>
 			<PropertyValue name="Syntax">Regex</PropertyValue>
-			<PropertyValue name="Quick Pane Display Options">0</PropertyValue>
+			<PropertyValue name="In Files Pane Display Options">0</PropertyValue>
 			<PropertyValue name="NumberOfScopes">0</PropertyValue>
 		</Category>
 		<Category name="Environment_FindSymbol" Category="{C93260BC-0C07-484a-8188-6F4763BD7FD4}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_FindSymbol" PackageName="Visual Studio Environment Package">
@@ -974,7 +962,7 @@
 							<Item Name="Inactive Selected Text" Foreground="0x00544E3F" Background="0x00DBCDBF" BoldFont="No"/>
 						</Items>
 					</Category>
-					<Category GUID="{A27B4E24-A735-4D1D-B8E7-9716E1E3D8E0}" FontName="Consolas" FontSize="9" CharSet="0" FontIsDefault="No">
+					<Category GUID="{A27B4E24-A735-4D1D-B8E7-9716E1E3D8E0}" FontName="Consolas" FontSize="12" CharSet="0" FontIsDefault="No">
 						<Items>
 							<Item Name="Plain Text" Foreground="0x00CCDCDC" Background="0x003F3F3F" BoldFont="No"/>
 							<Item Name="Selected Text" Foreground="0x0090DCCC" Background="0x008A9263" BoldFont="No"/>
@@ -1424,15 +1412,21 @@
 					<modify Cmd="{C7547851-4E3A-4E5B-9173-FA6E9C8BD82C}:0000002c" CmdPri="01008001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:000002c2" GroupPri="00000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000501" BeginGroup="true"/>
 				</DefaultCustomizations>
 				<UserCustomizations>
-					<add_group Group="{F2AEB62D-9188-4313-8D80-98F551565E94}:00000201" GroupPri="40000001" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00004200"/>
 					<modify_toolbar Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000001" Visibility="auto" FullScreen="hide" Dock="top" Row="1" FloatRectangle="0,0,660,24" DockRectangle="0,0,660,24"/>
 					<modify_toolbar Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:0000000d" Visibility="show" FullScreen="hide" Dock="top" Row="1" FloatRectangle="0,0,96,24" DockRectangle="1,0,96,24"/>
 					<modify_toolbar Menu="{B85579AA-8BE0-4C4F-A850-90902B317571}:00004000" Visibility="auto" FullScreen="hide" Dock="top" Row="2" FloatRectangle="0,0,403,24" DockRectangle="34,0,403,24"/>
 					<modify_toolbar Menu="{9ADF33D0-8AAD-11D0-B606-00A0C922E851}:0000000e" Visibility="auto" FullScreen="hide" Dock="top" Row="2" FloatRectangle="0,0,418,24" DockRectangle="35,0,418,24"/>
 					<modify_toolbar Menu="{D7E8C5E1-BDB8-11D0-9C88-0000F8040A53}:00001077" Visibility="auto" FullScreen="hide" Dock="top" Row="2" FloatRectangle="0,0,317,24" DockRectangle="6,0,317,24"/>
-					<add CmdPri="40000001" Group="{F2AEB62D-9188-4313-8D80-98F551565E94}:00000201" GroupPri="40000001" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00004200">OtherContextMenus.DirectedGraphContextMenu.Analyzers.CircularReferenceAnalyzer</add>
-					<add CmdPri="40008001" Group="{F2AEB62D-9188-4313-8D80-98F551565E94}:00000201" GroupPri="40000001" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00004200">OtherContextMenus.DirectedGraphContextMenu.Analyzers.AnalyzeHubs</add>
-					<add CmdPri="40010001" Group="{F2AEB62D-9188-4313-8D80-98F551565E94}:00000201" GroupPri="40000001" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00004200">OtherContextMenus.DirectedGraphContextMenu.Analyzers.UnreferencedNodeAnalyzer</add>
+					<add CmdPri="00800001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:000001c4" GroupPri="00100000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:0000040d">RedGate.Reflector.Addin.Connect9.Reflector_JumpToDefinition</add>
+					<add CmdPri="00400001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000275" GroupPri="01000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000445">RedGate.Reflector.Addin.Connect9.Reflector_JumpToDefinition</add>
+					<add CmdPri="00800001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000275" GroupPri="01000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000445">RedGate.Reflector.Addin.Connect9.Reflector_FakeGoToDefinition</add>
+					<add CmdPri="00400001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000275" GroupPri="01000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000446">RedGate.Reflector.Addin.Connect9.Reflector_JumpToDefinition</add>
+					<add CmdPri="00800001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000275" GroupPri="01000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000446">RedGate.Reflector.Addin.Connect9.Reflector_FakeGoToDefinition</add>
+					<modify CmdPri="00800001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:000001c4" GroupPri="00100000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:0000040d" Name="Open in .NET Reflector">RedGate.Reflector.Addin.Connect9.Reflector_JumpToDefinition</modify>
+					<modify CmdPri="00400001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000275" GroupPri="01000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000445" Name="Open in .NET Reflector">RedGate.Reflector.Addin.Connect9.Reflector_JumpToDefinition</modify>
+					<modify CmdPri="00800001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000275" GroupPri="01000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000445" Name="Go to Decompiled Definition">RedGate.Reflector.Addin.Connect9.Reflector_FakeGoToDefinition</modify>
+					<modify CmdPri="00400001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000275" GroupPri="01000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000446" Name="Open in .NET Reflector">RedGate.Reflector.Addin.Connect9.Reflector_JumpToDefinition</modify>
+					<modify CmdPri="00800001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000275" GroupPri="01000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000446" Name="Go to Decompiled Definition">RedGate.Reflector.Addin.Connect9.Reflector_FakeGoToDefinition</modify>
 					<modify Cmd="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00002400" CmdPri="00000000" Group="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00001010" GroupPri="05100000" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00003600" CustomIcon="U0JTXygEAAAoAAAAEAAAAPD///8BACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAALy82BxBQfS/GRn99UxM/fF9ff//fX3//319//99ff//fX3//319//9QUP3yHR399DAw99OystooAAAAALy82BwUFPzvg4P++O/v///z8///8/P///Pz///z8///8/P///Pz///z8///8/P///Pz//+Xl//9FBT986ur2zA/P/S/gID++Ovr///r6///6+v//+vr///r6///6+v//+vr///r6///6+v//+vr///r6///6+v//56e//8oKPnbFxf99d/f///j4///4+P//+Pj///j4///4+P//+Pj///j4///4+P//+Pj///j4///4+P//+Pj///j4///LCz980VF/fHb2///29v//9vb///b2///29v//9vb///b2///29v//9vb///b2///29v//9vb///b2///29v//19f/vppaf//09P//9PT///T0///09P//9PT///T0///09P//9PT///T0///09P//9PT///T0///09P//9PT//9paf//ZWX//8vL///Ly///y8v//8vL///Ly///y8v//8vL///Ly///y8v//8vL///Ly///y8v//8vL///Ly///ZWX//2Fh///Dw///w8P//8PD///Dw///w8P//8PD///Dw///w8P//8PD///Dw///w8P//8PD///Dw///w8P//2Fh//9dXf//u7v//7u7//+7u///u7v//7u7//+7u///u7v//7u7//+7u///u7v//7u7//+7u///u7v//7u7//9dXf//WVn//7Oz//+zs///s7P//7Oz//+zs///s7P//7Oz//+zs///s7P//7Oz//+zs///s7P//7Oz//+zs///WVn//1VV//+rq///q6v//6ur//+rq///q6v//6ur//+rq///q6v//6ur//+rq///q6v//6ur//+rq///q6v//1VV//86Ov3zo6P//6Oj//+jo///o6P//6Oj//+jo///o6P//6Oj//+jo///o6P//6Oj//+jo///o6P//6Oj//9LS/77GBj985ub//+bm///m5v//5ub//+bm///m5v//5ub//+bm///m5v//5ub//+bm///m5v//5ub//+bm///KSn98isr99NbW//9k5P//5OT//+Tk///k5P//5OT//+Tk///k5P//5OT//+Tk///k5P//5OT//+Tk///bm7//xcX/OuystooDQ399V1d//+Li///i4v//4uL//+Li///i4v//4uL//+Li///i4v//4uL//+Li///aGj//xIS/fWent5AAAAAAKur2zAjI/nbISH98js7/vpBQf//QUH//0FB//9BQf//QUH//0FB//88PP77JSX98hcX/Ouent5AAAAAAA"/>
 					<modify Cmd="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00002401" CmdPri="00000000" Group="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00001010" GroupPri="05100000" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00003600" CustomIcon="U0JTXygEAAAoAAAAEAAAAPD///8BACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL/HwxxNg2m/J25K9UOKZvFVonz/VaJ8/1WifP9Vonz/VaJ8/1WifP9EimfyKnBO9D57XNO2wbwoAAAAAL/HwxwnbErvWaaA+IrftP+M4bb/jOG2/4zhtv+M4bb/jOG2/4zhtv+M4bb/jOG2/4zhtv9gsIn9JmtJ87C9tjBLg2i/VqV/+IXfsv+F37L/hd+y/4Xfsv+F37L/hd+y/4Xfsv+F37L/hd+y/4Xfsv+F37L/hd+y/2G2i/84d1jbJm5J9X7crP+A3a7/gN2u/4Ddrv+A3a7/gN2u/4Ddrv+A3a7/gN2u/4Ddrv+A3a7/gN2u/4Ddrv+A3a7/MHlV8zuIYfF526r/eduq/3nbqv9526r/eduq/3nbqv9526r/eduq/3nbqv9526r/eduq/3nbqv9526r/eduq/0WWbfpGnXL/dNmm/3TZpv902ab/dNmm/3TZpv902ab/dNmm/3TZpv902ab/dNmm/3TZpv902ab/dNmm/3TZpv9GnXL/Qpxw/23Xo/9t16P/bdej/23Xo/9t16P/bdej/23Xo/9t16P/bdej/23Xo/9t16P/bdej/23Xo/9t16P/Qpxw/z+bbv9n1Z//Z9Wf/2fVn/9n1Z//Z9Wf/2fVn/9n1Z//Z9Wf/2fVn/9n1Z//Z9Wf/2fVn/9n1Z//Z9Wf/z+bbv88m2z/YdSa/2HUmv9h1Jr/YdSa/2HUmv9h1Jr/YdSa/2HUmv9h1Jr/YdSa/2HUmv9h1Jr/YdSa/2HUmv88m2z/OZpq/1vSlv9b0pb/W9KW/1vSlv9b0pb/W9KW/1vSlv9b0pb/W9KW/1vSlv9b0pb/W9KW/1vSlv9b0pb/OZpq/zaZaP9U0JP/VNCT/1TQk/9U0JP/VNCT/1TQk/9U0JP/VNCT/1TQk/9U0JP/VNCT/1TQk/9U0JP/VNCT/zaZaP8wh1zzT86P/0/Oj/9Pzo//T86P/0/Oj/9Pzo//T86P/0/Oj/9Pzo//T86P/0/Oj/9Pzo//T86P/0/Oj/8yk2L7JnBL80jMi/9IzIv/SMyL/0jMi/9IzIv/SMyL/0jMi/9IzIv/SMyL/0jMi/9IzIv/SMyL/0jMi/9IzIv/Kn1U8jp5W9M0omv9Q8qH/0PKh/9Dyof/Q8qH/0PKh/9Dyof/Q8qH/0PKh/9Dyof/Q8qH/0PKh/9Dyof/OK90/ylwTOu2wbwoH2hF9TCmbP88yIP/PMiD/zzIg/88yIP/PMiD/zzIg/88yIP/PMiD/zzIg/88yIP/M65x/yFsRvWktq1AAAAAALC9tjA0dlbbJ3dP8ieNWvonlF7/J5Re/yeUXv8nlF7/J5Re/yeUXv8nj1z7J3xR8ilvTOuktq1AAAAAAA"/>
 					<modify Cmd="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00002402" CmdPri="00000000" Group="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00001010" GroupPri="05100000" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00003600" CustomIcon="U0JTXygEAAAoAAAAEAAAAPD///8BACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAANjMvBz0qEG//Z0Z9f2yTPH/yH3//8h9///Iff//yH3//8h9///Iff/9tFDy/Z4d9PejMNPaybIoAAAAANjMvBz8mhTv/sqD+P/47///+vP///rz///68///+vP///rz///68///+vP///rz///68///0Zf9/ZoU89vHqzD0qD+//smA+P/36///9+v///fr///36///9+v///fr///36///9+v///fr///36///9+v///fr///Wnv/5oSjb/ZwX9f/x3///8+P///Pj///z4///8+P///Pj///z4///8+P///Pj///z4///8+P///Pj///z4///8+P//aQs8/2vRfH/8Nv///Db///w2///8Nv///Db///w2///8Nv///Db///w2///8Nv///Db///w2///8Nv///Db//67X/r/wGn//+zT///s0///7NP//+zT///s0///7NP//+zT///s0///7NP//+zT///s0///7NP//+zT///s0///wGn//75l///py///6cv//+nL///py///6cv//+nL///py///6cv//+nL///py///6cv//+nL///py///6cv//75l//+9Yf//5sP//+bD///mw///5sP//+bD///mw///5sP//+bD///mw///5sP//+bD///mw///5sP//+bD//+9Yf//u13//+K7///iu///4rv//+K7///iu///4rv//+K7///iu///4rv//+K7///iu///4rv//+K7///iu///u13//7lZ///fs///37P//9+z///fs///37P//9+z///fs///37P//9+z///fs///37P//9+z///fs///37P//7lZ//+4Vf//3Kv//9yr///cq///3Kv//9yr///cq///3Kv//9yr///cq///3Kv//9yr///cq///3Kv//9yr//+4Vf/9qTrz/9ij///Yo///2KP//9ij///Yo///2KP//9ij///Yo///2KP//9ij///Yo///2KP//9ij///Yo//+sUv7/ZwY8//Vm///1Zv//9Wb///Vm///1Zv//9Wb///Vm///1Zv//9Wb///Vm///1Zv//9Wb///Vm///1Zv//aQp8vehK9P/uVv9/9GT///Rk///0ZP//9GT///Rk///0ZP//9GT///Rk///0ZP//9GT///Rk///0ZP//8Ju//ybF+vaybIo/ZcN9f+6Xf//zov//86L///Oi///zov//86L///Oi///zov//86L///Oi///zov//79o//2YEvXew55AAAAAANvHqzD5nyPb/aAh8v6sO/r/r0H//69B//+vQf//r0H//69B//+vQf/+rDz7/aIl8vybF+vew55AAAAAAA"/>
@@ -1443,9 +1437,6 @@
 					<modify Cmd="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00002407" CmdPri="00000000" Group="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00001010" GroupPri="05100000" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00003600" CustomIcon="U0JTXygEAAAoAAAAEAAAAPD///8BACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAALy8vBxBQTW/GRkI9UxMDPF9fQD/fX0A/319AP99fQD/fX0A/319AP9QUAvyHR0J9DAwJNOysrIoAAAAALy8vBwUFA3vg4MG+O/vAP/z8wD/8/MA//PzAP/z8wD/8/MA//PzAP/z8wD/8/MA//PzAP+XlwL9FBQK86urqzA/PzW/gIAG+OvrAP/r6wD/6+sA/+vrAP/r6wD/6+sA/+vrAP/r6wD/6+sA/+vrAP/r6wD/6+sA/56eAP8oKB7bFxcI9d/fAP/j4wD/4+MA/+PjAP/j4wD/4+MA/+PjAP/j4wD/4+MA/+PjAP/j4wD/4+MA/+PjAP/j4wD/LCwK80VFDPHb2wD/29sA/9vbAP/b2wD/29sA/9vbAP/b2wD/29sA/9vbAP/b2wD/29sA/9vbAP/b2wD/29sA/19fBPpqagD/1NQA/9TUAP/U1AD/1NQA/9TUAP/U1AD/1NQA/9TUAP/U1AD/1NQA/9TUAP/U1AD/1NQA/9TUAP9qagD/ZWUA/8vLAP/LywD/y8sA/8vLAP/LywD/y8sA/8vLAP/LywD/y8sA/8vLAP/LywD/y8sA/8vLAP/LywD/ZWUA/2JiAP/ExAD/xMQA/8TEAP/ExAD/xMQA/8TEAP/ExAD/xMQA/8TEAP/ExAD/xMQA/8TEAP/ExAD/xMQA/2JiAP9dXQD/u7sA/7u7AP+7uwD/u7sA/7u7AP+7uwD/u7sA/7u7AP+7uwD/u7sA/7u7AP+7uwD/u7sA/7u7AP9dXQD/WloA/7S0AP+0tAD/tLQA/7S0AP+0tAD/tLQA/7S0AP+0tAD/tLQA/7S0AP+0tAD/tLQA/7S0AP+0tAD/WloA/1VVAP+rqwD/q6sA/6urAP+rqwD/q6sA/6urAP+rqwD/q6sA/6urAP+rqwD/q6sA/6urAP+rqwD/q6sA/1VVAP87OwrzpKQA/6SkAP+kpAD/pKQA/6SkAP+kpAD/pKQA/6SkAP+kpAD/pKQA/6SkAP+kpAD/pKQA/6SkAP9LSwP7GBgK85ycAP+cnAD/nJwA/5ycAP+cnAD/nJwA/5ycAP+cnAD/nJwA/5ycAP+cnAD/nJwA/5ycAP+cnAD/KSkL8isrJNNcXAL9lJQA/5SUAP+UlAD/lJQA/5SUAP+UlAD/lJQA/5SUAP+UlAD/lJQA/5SUAP+UlAD/b28A/xcXEeuysrIoDQ0I9V5eAP+MjAD/jIwA/4yMAP+MjAD/jIwA/4yMAP+MjAD/jIwA/4yMAP+MjAD/aWkA/xISCPWenp5AAAAAAKurqzAjIx7bISEL8js7BPpCQgD/QkIA/0JCAP9CQgD/QkIA/0JCAP88PAP7JSUL8hcXEeuenp5AAAAAAA"/>
 					<modify Cmd="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00002408" CmdPri="00000000" Group="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00001010" GroupPri="05100000" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00003600" CustomIcon="U0JTXygEAAAoAAAAEAAAAPD///8BACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAALy8vBxBPDW/GRII9UwyDPF9SAD/fUgA/31IAP99SAD/fUgA/31IAP9QMwvyHRQJ9DArJNOysrIoAAAAALy8vBwUEg3vg04G+O+KAP/zjAD/84wA//OMAP/zjAD/84wA//OMAP/zjAD/84wA//OMAP+XVwL9FBAK86urqzA/OzW/gE0G+OuIAP/riAD/64gA/+uIAP/riAD/64gA/+uIAP/riAD/64gA/+uIAP/riAD/64gA/55bAP8oIx7bFxEI9d+BAP/jgwD/44MA/+ODAP/jgwD/44MA/+ODAP/jgwD/44MA/+ODAP/jgwD/44MA/+ODAP/jgwD/LB0K80UsDPHbfgD/234A/9t+AP/bfgD/234A/9t+AP/bfgD/234A/9t+AP/bfgD/234A/9t+AP/bfgD/234A/185BPppPQD/03oA/9N6AP/TegD/03oA/9N6AP/TegD/03oA/9N6AP/TegD/03oA/9N6AP/TegD/03oA/9N6AP9pPQD/ZTsA/8t2AP/LdgD/y3YA/8t2AP/LdgD/y3YA/8t2AP/LdgD/y3YA/8t2AP/LdgD/y3YA/8t2AP/LdgD/ZTsA/2E4AP/DcQD/w3EA/8NxAP/DcQD/w3EA/8NxAP/DcQD/w3EA/8NxAP/DcQD/w3EA/8NxAP/DcQD/w3EA/2E4AP9dNgD/u2wA/7tsAP+7bAD/u2wA/7tsAP+7bAD/u2wA/7tsAP+7bAD/u2wA/7tsAP+7bAD/u2wA/7tsAP9dNgD/WTMA/7NnAP+zZwD/s2cA/7NnAP+zZwD/s2cA/7NnAP+zZwD/s2cA/7NnAP+zZwD/s2cA/7NnAP+zZwD/WTMA/1UxAP+rYwD/q2MA/6tjAP+rYwD/q2MA/6tjAP+rYwD/q2MA/6tjAP+rYwD/q2MA/6tjAP+rYwD/q2MA/1UxAP86Jgrzo18A/6NfAP+jXwD/o18A/6NfAP+jXwD/o18A/6NfAP+jXwD/o18A/6NfAP+jXwD/o18A/6NfAP9LLAP7GBIK85taAP+bWgD/m1oA/5taAP+bWgD/m1oA/5taAP+bWgD/m1oA/5taAP+bWgD/m1oA/5taAP+bWgD/KRwL8isnJNNbNgL9k1UA/5NVAP+TVQD/k1UA/5NVAP+TVQD/k1UA/5NVAP+TVQD/k1UA/5NVAP+TVQD/bkAA/xcVEeuysrIoDQsI9V02AP+LUQD/i1EA/4tRAP+LUQD/i1EA/4tRAP+LUQD/i1EA/4tRAP+LUQD/aD0A/xIOCPWenp5AAAAAAKurqzAjIR7bIRcL8jsjBPpBJgD/QSYA/0EmAP9BJgD/QSYA/0EmAP88JAP7JRkL8hcVEeuenp5AAAAAAA"/>
 					<modify Cmd="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00002409" CmdPri="00000000" Group="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00001010" GroupPri="05100000" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00003600" CustomIcon="U0JTXygEAAAoAAAAEAAAAPD///8BACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAALy8vBw/NUG/FggZ9UUMTPFtAH3/bQB9/20Aff9tAH3/bQB9/20Aff9IC1DyGgkd9C8kMNOysrIoAAAAALy8vBwUDRTvdQaD+NIA7//VAPP/1QDz/9UA8//VAPP/1QDz/9UA8//VAPP/1QDz/9UA8/+FApf9FAoU86urqzA/NT+/bwaA+M0A6//NAOv/zQDr/80A6//NAOv/zQDr/80A6//NAOv/zQDr/80A6//NAOv/zQDr/4kAnv8nHijbFQgX9cQA3//HAOP/xwDj/8cA4//HAOP/xwDj/8cA4//HAOP/xwDj/8cA4//HAOP/xwDj/8cA4//HAOP/KAos8z0MRfG/ANv/vwDb/78A2/+/ANv/vwDb/78A2/+/ANv/vwDb/78A2/+/ANv/vwDb/78A2/+/ANv/vwDb/1MEX/pcAGn/uADT/7gA0/+4ANP/uADT/7gA0/+4ANP/uADT/7gA0/+4ANP/uADT/7gA0/+4ANP/uADT/7gA0/9cAGn/WABl/7EAy/+xAMv/sQDL/7EAy/+xAMv/sQDL/7EAy/+xAMv/sQDL/7EAy/+xAMv/sQDL/7EAy/+xAMv/WABl/1UAYf+qAMP/qgDD/6oAw/+qAMP/qgDD/6oAw/+qAMP/qgDD/6oAw/+qAMP/qgDD/6oAw/+qAMP/qgDD/1UAYf9RAF3/owC7/6MAu/+jALv/owC7/6MAu/+jALv/owC7/6MAu/+jALv/owC7/6MAu/+jALv/owC7/6MAu/9RAF3/TgBZ/5wAs/+cALP/nACz/5wAs/+cALP/nACz/5wAs/+cALP/nACz/5wAs/+cALP/nACz/5wAs/+cALP/TgBZ/0oAVf+VAKv/lQCr/5UAq/+VAKv/lQCr/5UAq/+VAKv/lQCr/5UAq/+VAKv/lQCr/5UAq/+VAKv/lQCr/0oAVf80CjrzjgCj/44Ao/+OAKP/jgCj/44Ao/+OAKP/jgCj/44Ao/+OAKP/jgCj/44Ao/+OAKP/jgCj/44Ao/9CA0v7FgoY84YAm/+GAJv/hgCb/4YAm/+GAJv/hgCb/4YAm/+GAJv/hgCb/4YAm/+GAJv/hgCb/4YAm/+GAJv/Jgsp8iokK9NQAlv9gACT/4AAk/+AAJP/gACT/4AAk/+AAJP/gACT/4AAk/+AAJP/gACT/4AAk/+AAJP/YABu/xcRF+uysrIoDQgN9VAAXf94AIv/eACL/3gAi/94AIv/eACL/3gAi/94AIv/eACL/3gAi/94AIv/WgBo/xAIEvWenp5AAAAAAKurqzAiHiPbHgsh8jMEO/o5AEH/OQBB/zkAQf85AEH/OQBB/zkAQf80Azz7Igsl8hYRF+uenp5AAAAAAA"/>
-					<modify CmdPri="40000001" Group="{F2AEB62D-9188-4313-8D80-98F551565E94}:00000201" GroupPri="40000001" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00004200" Name="Circular References">OtherContextMenus.DirectedGraphContextMenu.Analyzers.CircularReferenceAnalyzer</modify>
-					<modify CmdPri="40008001" Group="{F2AEB62D-9188-4313-8D80-98F551565E94}:00000201" GroupPri="40000001" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00004200" Name="Find Hubs">OtherContextMenus.DirectedGraphContextMenu.Analyzers.AnalyzeHubs</modify>
-					<modify CmdPri="40010001" Group="{F2AEB62D-9188-4313-8D80-98F551565E94}:00000201" GroupPri="40000001" Menu="{ADC1BC7B-958B-4548-9F9F-10FC49099825}:00004200" Name="Unreferenced Nodes">OtherContextMenus.DirectedGraphContextMenu.Analyzers.UnreferencedNodeAnalyzer</modify>
 				</UserCustomizations>
 			</CommandBars>
 			<PropertyValue name="ShowLargeButtons">false</PropertyValue>
@@ -1682,145 +1673,139 @@
 			<PropertyValue name="Tab15.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab15.RecordType">4</PropertyValue>
 			<PropertyValue name="Tab15.Position">18</PropertyValue>
-			<PropertyValue name="Tab16.ID">Windows Phone Controls</PropertyValue>
-			<PropertyValue name="Tab16.Name">Windows Phone Controls</PropertyValue>
+			<PropertyValue name="Tab16.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1074</PropertyValue>
+			<PropertyValue name="Tab16.Name">Navigation</PropertyValue>
 			<PropertyValue name="Tab16.View">0</PropertyValue>
 			<PropertyValue name="Tab16.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab16.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab16.Position">19</PropertyValue>
-			<PropertyValue name="Tab17.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1074</PropertyValue>
-			<PropertyValue name="Tab17.Name">Navigation</PropertyValue>
+			<PropertyValue name="Tab16.Position">20</PropertyValue>
+			<PropertyValue name="Tab17.ID">Runtime</PropertyValue>
+			<PropertyValue name="Tab17.Name">Runtime</PropertyValue>
 			<PropertyValue name="Tab17.View">0</PropertyValue>
 			<PropertyValue name="Tab17.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab17.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab17.Position">20</PropertyValue>
-			<PropertyValue name="Tab18.ID">Runtime</PropertyValue>
-			<PropertyValue name="Tab18.Name">Runtime</PropertyValue>
+			<PropertyValue name="Tab17.Position">21</PropertyValue>
+			<PropertyValue name="Tab18.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1102</PropertyValue>
+			<PropertyValue name="Tab18.Name">Containers</PropertyValue>
 			<PropertyValue name="Tab18.View">0</PropertyValue>
 			<PropertyValue name="Tab18.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab18.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab18.Position">21</PropertyValue>
-			<PropertyValue name="Tab19.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1102</PropertyValue>
-			<PropertyValue name="Tab19.Name">Containers</PropertyValue>
+			<PropertyValue name="Tab18.Position">22</PropertyValue>
+			<PropertyValue name="Tab19.ID">Silverlight Controls</PropertyValue>
+			<PropertyValue name="Tab19.Name">All Silverlight Controls</PropertyValue>
 			<PropertyValue name="Tab19.View">0</PropertyValue>
 			<PropertyValue name="Tab19.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab19.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab19.Position">22</PropertyValue>
-			<PropertyValue name="Tab20.ID">Silverlight Controls</PropertyValue>
-			<PropertyValue name="Tab20.Name">All Silverlight Controls</PropertyValue>
+			<PropertyValue name="Tab19.Position">23</PropertyValue>
+			<PropertyValue name="Tab20.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1075</PropertyValue>
+			<PropertyValue name="Tab20.Name">Login</PropertyValue>
 			<PropertyValue name="Tab20.View">0</PropertyValue>
 			<PropertyValue name="Tab20.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab20.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab20.Position">23</PropertyValue>
-			<PropertyValue name="Tab21.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1075</PropertyValue>
-			<PropertyValue name="Tab21.Name">Login</PropertyValue>
+			<PropertyValue name="Tab20.Position">30</PropertyValue>
+			<PropertyValue name="Tab21.ID">Primitives</PropertyValue>
+			<PropertyValue name="Tab21.Name">Primitives</PropertyValue>
 			<PropertyValue name="Tab21.View">0</PropertyValue>
 			<PropertyValue name="Tab21.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab21.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab21.Position">30</PropertyValue>
-			<PropertyValue name="Tab22.ID">Primitives</PropertyValue>
-			<PropertyValue name="Tab22.Name">Primitives</PropertyValue>
+			<PropertyValue name="Tab21.Position">31</PropertyValue>
+			<PropertyValue name="Tab22.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1103</PropertyValue>
+			<PropertyValue name="Tab22.Name">Menus &amp; Toolbars</PropertyValue>
 			<PropertyValue name="Tab22.View">0</PropertyValue>
 			<PropertyValue name="Tab22.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab22.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab22.Position">31</PropertyValue>
-			<PropertyValue name="Tab23.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1103</PropertyValue>
-			<PropertyValue name="Tab23.Name">Menus &amp; Toolbars</PropertyValue>
+			<PropertyValue name="Tab22.Position">32</PropertyValue>
+			<PropertyValue name="Tab23.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1076</PropertyValue>
+			<PropertyValue name="Tab23.Name">WebParts</PropertyValue>
 			<PropertyValue name="Tab23.View">0</PropertyValue>
 			<PropertyValue name="Tab23.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab23.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab23.Position">32</PropertyValue>
-			<PropertyValue name="Tab24.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1076</PropertyValue>
-			<PropertyValue name="Tab24.Name">WebParts</PropertyValue>
+			<PropertyValue name="Tab23.Position">33</PropertyValue>
+			<PropertyValue name="Tab24.ID">Transaction</PropertyValue>
+			<PropertyValue name="Tab24.Name">Transaction</PropertyValue>
 			<PropertyValue name="Tab24.View">0</PropertyValue>
 			<PropertyValue name="Tab24.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab24.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab24.Position">33</PropertyValue>
-			<PropertyValue name="Tab25.ID">Transaction</PropertyValue>
-			<PropertyValue name="Tab25.Name">Transaction</PropertyValue>
+			<PropertyValue name="Tab24.Position">34</PropertyValue>
+			<PropertyValue name="Tab25.ID">Data</PropertyValue>
+			<PropertyValue name="Tab25.Name">Data</PropertyValue>
 			<PropertyValue name="Tab25.View">0</PropertyValue>
 			<PropertyValue name="Tab25.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab25.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab25.Position">34</PropertyValue>
-			<PropertyValue name="Tab26.ID">Data</PropertyValue>
-			<PropertyValue name="Tab26.Name">Data</PropertyValue>
+			<PropertyValue name="Tab25.Position">35</PropertyValue>
+			<PropertyValue name="Tab26.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1077</PropertyValue>
+			<PropertyValue name="Tab26.Name">Mobile Web Forms</PropertyValue>
 			<PropertyValue name="Tab26.View">0</PropertyValue>
 			<PropertyValue name="Tab26.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab26.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab26.Position">35</PropertyValue>
-			<PropertyValue name="Tab27.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1077</PropertyValue>
-			<PropertyValue name="Tab27.Name">Mobile Web Forms</PropertyValue>
+			<PropertyValue name="Tab26.Position">36</PropertyValue>
+			<PropertyValue name="Tab27.ID">Collection</PropertyValue>
+			<PropertyValue name="Tab27.Name">Collection</PropertyValue>
 			<PropertyValue name="Tab27.View">0</PropertyValue>
 			<PropertyValue name="Tab27.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab27.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab27.Position">36</PropertyValue>
-			<PropertyValue name="Tab28.ID">Collection</PropertyValue>
-			<PropertyValue name="Tab28.Name">Collection</PropertyValue>
+			<PropertyValue name="Tab27.Position">37</PropertyValue>
+			<PropertyValue name="Tab28.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1101</PropertyValue>
+			<PropertyValue name="Tab28.Name">Components</PropertyValue>
 			<PropertyValue name="Tab28.View">0</PropertyValue>
 			<PropertyValue name="Tab28.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab28.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab28.Position">37</PropertyValue>
-			<PropertyValue name="Tab29.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1101</PropertyValue>
-			<PropertyValue name="Tab29.Name">Components</PropertyValue>
+			<PropertyValue name="Tab28.Position">38</PropertyValue>
+			<PropertyValue name="Tab29.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
+			<PropertyValue name="Tab29.Name">AJAX Extensions</PropertyValue>
 			<PropertyValue name="Tab29.View">0</PropertyValue>
 			<PropertyValue name="Tab29.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab29.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab29.Position">38</PropertyValue>
-			<PropertyValue name="Tab30.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
-			<PropertyValue name="Tab30.Name">AJAX Extensions</PropertyValue>
+			<PropertyValue name="Tab29.Position">39</PropertyValue>
+			<PropertyValue name="Tab30.ID">Microsoft.VisualStudio.SharePoint.Designers.BusinessDataConnectivity.BusinessDataConnectivityToolboxTab</PropertyValue>
+			<PropertyValue name="Tab30.Name">BusinessDataConnectivity</PropertyValue>
 			<PropertyValue name="Tab30.View">0</PropertyValue>
 			<PropertyValue name="Tab30.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab30.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab30.Position">39</PropertyValue>
-			<PropertyValue name="Tab31.ID">Microsoft.VisualStudio.SharePoint.Designers.BusinessDataConnectivity.BusinessDataConnectivityToolboxTab</PropertyValue>
-			<PropertyValue name="Tab31.Name">BusinessDataConnectivity</PropertyValue>
+			<PropertyValue name="Tab30.Position">40</PropertyValue>
+			<PropertyValue name="Tab31.ID">Error Handling</PropertyValue>
+			<PropertyValue name="Tab31.Name">Error Handling</PropertyValue>
 			<PropertyValue name="Tab31.View">0</PropertyValue>
 			<PropertyValue name="Tab31.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab31.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab31.Position">40</PropertyValue>
-			<PropertyValue name="Tab32.ID">Error Handling</PropertyValue>
-			<PropertyValue name="Tab32.Name">Error Handling</PropertyValue>
+			<PropertyValue name="Tab31.Position">41</PropertyValue>
+			<PropertyValue name="Tab32.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1104</PropertyValue>
+			<PropertyValue name="Tab32.Name">Printing</PropertyValue>
 			<PropertyValue name="Tab32.View">0</PropertyValue>
 			<PropertyValue name="Tab32.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab32.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab32.Position">41</PropertyValue>
-			<PropertyValue name="Tab33.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1104</PropertyValue>
-			<PropertyValue name="Tab33.Name">Printing</PropertyValue>
+			<PropertyValue name="Tab32.Position">42</PropertyValue>
+			<PropertyValue name="Tab33.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1079</PropertyValue>
+			<PropertyValue name="Tab33.Name">Dynamic Data</PropertyValue>
 			<PropertyValue name="Tab33.View">0</PropertyValue>
 			<PropertyValue name="Tab33.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab33.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab33.Position">42</PropertyValue>
-			<PropertyValue name="Tab34.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1079</PropertyValue>
-			<PropertyValue name="Tab34.Name">Dynamic Data</PropertyValue>
+			<PropertyValue name="Tab33.Position">43</PropertyValue>
+			<PropertyValue name="Tab34.ID">Migration</PropertyValue>
+			<PropertyValue name="Tab34.Name">Migration</PropertyValue>
 			<PropertyValue name="Tab34.View">0</PropertyValue>
 			<PropertyValue name="Tab34.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab34.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab34.Position">43</PropertyValue>
-			<PropertyValue name="Tab35.ID">Migration</PropertyValue>
-			<PropertyValue name="Tab35.Name">Migration</PropertyValue>
+			<PropertyValue name="Tab34.Position">44</PropertyValue>
+			<PropertyValue name="Tab35.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1105</PropertyValue>
+			<PropertyValue name="Tab35.Name">Dialogs</PropertyValue>
 			<PropertyValue name="Tab35.View">0</PropertyValue>
 			<PropertyValue name="Tab35.UseDefaultName">true</PropertyValue>
 			<PropertyValue name="Tab35.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab35.Position">44</PropertyValue>
-			<PropertyValue name="Tab36.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1105</PropertyValue>
-			<PropertyValue name="Tab36.Name">Dialogs</PropertyValue>
-			<PropertyValue name="Tab36.View">0</PropertyValue>
-			<PropertyValue name="Tab36.UseDefaultName">true</PropertyValue>
-			<PropertyValue name="Tab36.RecordType">4</PropertyValue>
-			<PropertyValue name="Tab36.Position">45</PropertyValue>
-			<PropertyValue name="TabCount">37</PropertyValue>
+			<PropertyValue name="Tab35.Position">45</PropertyValue>
+			<PropertyValue name="TabCount">36</PropertyValue>
 			<PropertyValue name="DeletedItem0.ID">Pointer</PropertyValue>
 			<PropertyValue name="DeletedItem0.Name">Pointer</PropertyValue>
-			<PropertyValue name="DeletedItem0.TabID"/>
-			<PropertyValue name="DeletedItem0.Tab">SyntaxHighlighter Components</PropertyValue>
+			<PropertyValue name="DeletedItem0.TabID">General</PropertyValue>
+			<PropertyValue name="DeletedItem0.Tab">General</PropertyValue>
 			<PropertyValue name="DeletedItem1.ID">Pointer</PropertyValue>
 			<PropertyValue name="DeletedItem1.Name">Pointer</PropertyValue>
-			<PropertyValue name="DeletedItem1.TabID"/>
-			<PropertyValue name="DeletedItem1.Tab">ScintillaNET Components</PropertyValue>
+			<PropertyValue name="DeletedItem1.TabID">Clipboard Ring</PropertyValue>
+			<PropertyValue name="DeletedItem1.Tab">Clipboard Ring</PropertyValue>
 			<PropertyValue name="DeletedItem2.ID">Pointer</PropertyValue>
 			<PropertyValue name="DeletedItem2.Name">Pointer</PropertyValue>
-			<PropertyValue name="DeletedItem2.TabID"/>
-			<PropertyValue name="DeletedItem2.Tab">ICSharpCode.TextEditor Components</PropertyValue>
+			<PropertyValue name="DeletedItem2.TabID">Excel Controls</PropertyValue>
+			<PropertyValue name="DeletedItem2.Tab">Excel Controls</PropertyValue>
 			<PropertyValue name="DeletedItemCount">3</PropertyValue>
 			<PropertyValue name="Item0.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
 			<PropertyValue name="Item0.ID">Microsoft.Office.Tools.Ribbon.RibbonBoxImpl, Microsoft.Office.Tools.Common.Implementation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
@@ -2056,7 +2041,7 @@
 		</Category>
 		<Category name="Environment_WindowLayout" Category="{eb4ba109-a9db-4445-bd09-e7604bcdce84}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_WindowLayout" PackageName="Visual Studio Environment Package">
 			<PropertyValue name="Version">7</PropertyValue>
-			<PropertyValue name="WindowProfileNames">Design|Debug|NoToolWin</PropertyValue>
+			<PropertyValue name="WindowProfileNames">Design|NoToolWin|Debug</PropertyValue>
 			<Design>
 				<WindowProfile xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:wm="clr-namespace:Microsoft.VisualStudio.Platform.WindowManagement;assembly=Microsoft.VisualStudio.Platform.WindowManagement" Name="Design" xmlns="clr-namespace:Microsoft.VisualStudio.PlatformUI.Shell;assembly=Microsoft.VisualStudio.Shell.ViewManager">
 					<MainSite IsVisible="True">
@@ -2072,7 +2057,7 @@
 							</AutoHideChannel>
 							<AutoHideChannel Dock="Right" Orientation="Vertical" IsVisible="True">
 								<AutoHideGroup IsVisible="True">
-									<wm:ToolWindowView OnTopWhenLastInContext="False" ForceCreate="ForceCreate" Name="ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}" IsVisible="True" DockedHeight="384" DockedWidth="204.8" FloatingTop="76.8" FloatingLeft="819.2" FloatingHeight="384" FloatingWidth="204.8"/>
+									<wm:ToolWindowView OnTopWhenLastInContext="False" ForceCreate="ForceCreate" IconIndex="1" IconResourceID="6650" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}" IsVisible="True" DockedHeight="384" DockedWidth="204.8" FloatingTop="76.8" FloatingLeft="819.2" FloatingHeight="384" FloatingWidth="204.8"/>
 								</AutoHideGroup>
 							</AutoHideChannel>
 							<AutoHideChannel Dock="Top"/>
@@ -2100,7 +2085,7 @@
 									<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{68487888-204a-11d3-87eb-00c04f7971a5}" DockedHeight="191" DockedWidth="1024" FloatingTop="576" FloatingLeft="102.4" FloatingHeight="192" FloatingWidth="614.4"/>
 									<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{fdffccf2-5f63-404f-86ad-33693f544948}" DockedHeight="191" DockedWidth="1024" FloatingTop="576" FloatingLeft="102.4" FloatingHeight="192" FloatingWidth="614.4"/>
 									<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{73f6dd5b-437e-11d3-b88e-00c04f79f802}" DockedHeight="191" DockedWidth="1024" FloatingTop="576" FloatingLeft="102.4" FloatingHeight="192" FloatingWidth="614.4"/>
-									<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{cdbdee54-b399-484b-b763-db2c3393d646}" DockedHeight="191" DockedWidth="1024" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
+									<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="104" IconResourcePackage="8889e051-b7f9-4781-bb33-2a36a9bdb3a5" Name="ST:0:0:{cdbdee54-b399-484b-b763-db2c3393d646}" DockedHeight="191" DockedWidth="1024" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
 									<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="3" IconResourceID="300" IconResourcePackage="a8dc7e73-6bf8-4d90-840a-9a95832a2b47" Name="ST:0:0:{9a7cebbb-dc5c-4986-bc49-962da46aa506}" DockedHeight="191" DockedWidth="1024" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
 									<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="4200" IconResourcePackage="91a04a73-4f2c-4e7c-ad38-c1a68e7da05c" Name="ST:0:0:{dee22b65-9761-4a26-8fb2-759b971d6dfc}" IsVisible="True" DockedHeight="191" DockedWidth="1024" FloatingTop="0" FloatingLeft="0" FloatingHeight="120" FloatingWidth="360"/>
 								</AutoHideGroup>
@@ -2129,6 +2114,8 @@
 												<ViewBookmark Name="D:0:0:{F2171B4C-9186-4EA1-98AF-20469258BC85}|lsc.llvmsharp\lsc.llvmsharp.csproj|d:\prabir\documents\projects\llvmsharp\src\lsc.llvmsharp\expressions\binaryexpression\assignment\addassign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
 												<ViewBookmark Name="D:0:0:{F2171B4C-9186-4EA1-98AF-20469258BC85}|lsc.llvmsharp\lsc.llvmsharp.csproj|d:\prabir\documents\projects\llvmsharp\src\lsc.llvmsharp\expressions\assignment\simpleassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
 												<ViewBookmark Name="D:0:0:{F2171B4C-9186-4EA1-98AF-20469258BC85}|lsc.llvmsharp\lsc.llvmsharp.csproj|d:\prabir\documents\projects\llvmsharp\src\lsc.llvmsharp\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
+												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{1820bae5-c385-4492-9de5-e35c9cf17b18}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
+												<ViewBookmark Name="D:0:0:{783914C6-4C7C-4C85-B4B3-251B29884B92}|LinqToFacebook\LinqToFacebook.csproj|d:\prabir\documents\projects\linqtofacebook\src\linqtofacebook\exceptions\_linqtofacebookexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
 											</DocumentGroup>
 										</DocumentGroupContainer>
 										<DockGroup DockedHeight="191" DockedWidth="1024">
@@ -2170,7 +2157,7 @@
 										<TabGroup IsVisible="True" DockedWidth="297.8">
 											<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{ed485b08-5acf-4ce9-8e13-699174ea0201}" DockedWidth="297.8" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
 											<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{dd1ddd20-d59b-11da-a94d-0800200c9a66}" DockedWidth="297.8" FloatingTop="200" FloatingLeft="200" FloatingHeight="700" FloatingWidth="900"/>
-											<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{a34b1c5d-6d37-4a0c-a8b0-99f8e8158b48}" DockedWidth="297.8" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
+											<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="105" IconResourcePackage="8889e051-b7f9-4781-bb33-2a36a9bdb3a5" Name="ST:0:0:{a34b1c5d-6d37-4a0c-a8b0-99f8e8158b48}" DockedWidth="297.8" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
 											<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="2" IconResourceID="6650" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}" IsSelected="True" IsVisible="True" DockedWidth="297.8" FloatingTop="76.8" FloatingLeft="819.2" FloatingHeight="537.6" FloatingWidth="204.8"/>
 											<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="2" IconResourcePackage="8e01ec3e-2928-4aa5-b720-e28c163818e6" Name="ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}" IsVisible="True" DockedWidth="297.8" FloatingTop="76.8" FloatingLeft="819.2" FloatingHeight="537.6" FloatingWidth="204.8"/>
 											<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="6651" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}" IsVisible="True" DockedWidth="297.8" FloatingTop="76.8" FloatingLeft="819.2" FloatingHeight="537.6" FloatingWidth="204.8"/>
@@ -2274,7 +2261,7 @@
 						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="307" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{e23045c1-967d-4e64-9ed1-d698de65807f}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
 					</FloatSite>
 					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
-						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="308" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{435ad293-774d-49c6-9e2d-3740c322be52}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
+						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="314" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{435ad293-774d-49c6-9e2d-3740c322be52}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
 					</FloatSite>
 					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
 						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="303" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{ae42d903-e5a3-417d-ba25-3ce77b315eed}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
@@ -2314,6 +2301,180 @@
 					</FloatSite>
 				</WindowProfile>
 			</Design>
+			<NoToolWin>
+				<WindowProfile xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:wm="clr-namespace:Microsoft.VisualStudio.Platform.WindowManagement;assembly=Microsoft.VisualStudio.Platform.WindowManagement" Name="NoToolWin" xmlns="clr-namespace:Microsoft.VisualStudio.PlatformUI.Shell;assembly=Microsoft.VisualStudio.Shell.ViewManager">
+					<MainSite IsVisible="True">
+						<AutoHideRoot IsVisible="True" DockedHeight="*" DockedWidth="*">
+							<AutoHideChannel Orientation="Vertical"/>
+							<AutoHideChannel Dock="Right" Orientation="Vertical"/>
+							<AutoHideChannel Dock="Top"/>
+							<AutoHideChannel Dock="Bottom" IsVisible="True">
+								<AutoHideGroup IsVisible="True">
+									<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" IconIndex="3" IconResourceID="6650" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}" IsVisible="True" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
+								</AutoHideGroup>
+							</AutoHideChannel>
+							<DockRoot IsVisible="True" DockedHeight="*" DockedWidth="*">
+								<DockGroup IsVisible="True" DockedHeight="*" DockedWidth="*">
+									<TabGroup DockedHeight="652.8" DockedWidth="174.08">
+										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{099ca9ea-0ae4-4e31-a7e4-fe09bd1715cc}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="614.4" FloatingWidth="256"/>
+										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" IconIndex="0" IconResourceID="6650" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView Name="ST:0:0:{9f3ec988-1174-4746-a66a-3969715d1fc7}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{5b6781c0-e99d-11d0-9954-00a0c91bc8e5}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{1cba9826-3184-4799-a184-784e41b56398}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="384" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{38ed9834-0c97-445b-bd1d-f78f3e08afac}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="384" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{402dc223-d700-4029-866f-acee803f3f0c}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="384" FloatingWidth="204.8"/>
+									</TabGroup>
+									<DockGroup Orientation="Vertical" IsVisible="True" DockedHeight="*" DockedWidth="*">
+										<TabGroup DockedHeight="153.6" DockedWidth="819.2">
+											<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="T:1:0:{350f9856-a72b-11d2-8ad0-00c04f79e479}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="153.6" FloatingWidth="614.4"/>
+											<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="T:2:0:{350f9856-a72b-11d2-8ad0-00c04f79e479}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="153.6" FloatingWidth="614.4"/>
+											<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="T:3:0:{350f9856-a72b-11d2-8ad0-00c04f79e479}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="153.6" FloatingWidth="614.4"/>
+											<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="T:4:0:{350f9856-a72b-11d2-8ad0-00c04f79e479}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="153.6" FloatingWidth="614.4"/>
+											<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{ca4b8ff5-bfc7-11d2-9929-00c04f68fdaf}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="153.6" FloatingWidth="614.4"/>
+											<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{51c76317-9037-4cf2-a20a-6206fd30b4a1}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="153.6" FloatingWidth="614.4"/>
+											<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{e62ce6a0-b439-11d0-a79d-00a0c9110051}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="153.6" FloatingWidth="614.4"/>
+											<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{8d263989-ff4b-4a78-90c8-b2ba3fa69311}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="199.68" FloatingWidth="512"/>
+											<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{37aba9be-445a-11d3-9949-00c04f68fd0a}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="153.6" FloatingWidth="614.4"/>
+										</TabGroup>
+										<DocumentGroupContainer IsVisible="True" DockedHeight="*" DockedWidth="*">
+											<DocumentGroup>
+												<wm:ToolWindowView ForceCreate="DontForceCreate" Name="ST:0:0:{387cb18d-6153-4156-9257-9ac3f9207bbe}" FloatingHeight="614.4" FloatingWidth="819.2"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="DontForceCreate" Name="ST:0:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}" FloatingHeight="537.6" FloatingWidth="716.8"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{46c87f81-5a06-43a8-9e25-85d33bac49f8}" FloatingHeight="537.6" FloatingWidth="716.8"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" IconIndex="4" IconResourceID="6650" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}" FloatingHeight="384" FloatingWidth="512"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{cf577b8c-4134-11d2-83e5-00c04f9902c1}" FloatingHeight="384" FloatingWidth="358.4"/>
+												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{99b8fa2f-ab90-4f57-9c32-949f146f1914}" FloatingHeight="614.4" FloatingWidth="819.2"/>
+												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{c79b74ff-f1d7-4c94-aefa-4d22bfe1b1f9}" FloatingHeight="614.4" FloatingWidth="819.2"/>
+												<ViewBookmark Name="D:0:0:{787C37A6-CF5B-4117-8358-B8F32590B5DC}|Helpers.Net.Extensions.Tests\Helpers.Net.Extensions.Tests.csproj|d:\prabir\documents\projects\prabir\helpersdotnet\extensions\src\helpers.net.extensions.tests\inttests.cs||{a6c744a8-0e4a-4fc6-886a-064283054674}" ViewBookmarkType="DocumentWell"/>
+												<ViewBookmark Name="D:0:0:Family: Live Templates, Categories: [], Description:  ||{3D47E1EA-6AF9-4A33-8AF1-032F1FD5929A}" ViewBookmarkType="DocumentWell"/>
+												<ViewBookmark Name="D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|&lt;MiscFiles&gt;|D:\candi\Downloads\DotNetOpenAuth-3.4.1.10044\DotNetOpenAuth-3.4.1.10044\Samples\OAuthConsumer\GoogleAddressBook.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
+												<ViewBookmark Name="D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|&lt;MiscFiles&gt;|D:\candi\Downloads\DotNetOpenAuth-3.4.1.10044\DotNetOpenAuth-3.4.1.10044\Samples\DotNetOpenAuth.ApplicationBlock\GoogleConsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
+												<ViewBookmark Name="D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|&lt;MiscFiles&gt;|D:\candi\Downloads\DotNetOpenAuth-3.4.1.10044\DotNetOpenAuth-3.4.1.10044\Samples\OAuthConsumer\App_Code\InMemoryTokenManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
+												<ViewBookmark Name="D:0:0:{A46F017D-7BF5-4801-B7C0-BA13CD9A6D7A}|gc\gc.vcxproj|d:\candi\documents\visual studio 2010\Projects\gc\gc\list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}" ViewBookmarkType="DocumentWell"/>
+												<ViewBookmark Name="D:0:0:{A46F017D-7BF5-4801-B7C0-BA13CD9A6D7A}|gc\gc.vcxproj|d:\candi\documents\visual studio 2010\Projects\gc\gc\list.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}" ViewBookmarkType="DocumentWell"/>
+												<ViewBookmark Name="D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|&lt;MiscFiles&gt;|D:\Prabir\Documents\Projects\llvmsharp\src\llvm-test\a.s||{8B382828-6202-11D1-8870-0000F87579D2}" ViewBookmarkType="DocumentWell"/>
+												<ViewBookmark Name="D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|&lt;MiscFiles&gt;|D:\Prabir\Documents\Docs\Abac\unmesh\compiler\z#\project_cc\SymTabTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
+												<ViewBookmark Name="D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|&lt;MiscFiles&gt;|D:\Prabir\Desktop\z.ll||{8B382828-6202-11D1-8870-0000F87579D2}" ViewBookmarkType="DocumentWell"/>
+												<ViewBookmark Name="D:0:0:{8E668BE3-A285-4ECF-9CF1-CB75F9AE2CB5}|Test\Test.csproj|d:\prabir\documents\projects\llvmsharp\src\test\parser\codes\good\13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
+												<ViewBookmark Name="D:0:0:{F2171B4C-9186-4EA1-98AF-20469258BC85}|lsc.llvmsharp\lsc.llvmsharp.csproj|d:\prabir\documents\projects\llvmsharp\src\lsc.llvmsharp\expressions\binaryexpression\assignment\addassign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
+												<ViewBookmark Name="D:0:0:{F2171B4C-9186-4EA1-98AF-20469258BC85}|lsc.llvmsharp\lsc.llvmsharp.csproj|d:\prabir\documents\projects\llvmsharp\src\lsc.llvmsharp\expressions\assignment\simpleassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
+												<ViewBookmark Name="D:0:0:{F2171B4C-9186-4EA1-98AF-20469258BC85}|lsc.llvmsharp\lsc.llvmsharp.csproj|d:\prabir\documents\projects\llvmsharp\src\lsc.llvmsharp\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
+												<ViewBookmark Name="D:0:0:{783914C6-4C7C-4C85-B4B3-251B29884B92}|LinqToFacebook\LinqToFacebook.csproj|d:\prabir\documents\projects\linqtofacebook\src\linqtofacebook\exceptions\_linqtofacebookexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
+											</DocumentGroup>
+											<DocumentGroup DockedWidth="966">
+												<ViewBookmark Name="D:0:0:{D36F25AB-117F-47DE-9999-6697054358A3}|d:\Prabir\Downloads\2009_10_AsmxJson|d:\prabir\downloads\2009_10_asmxjson\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}" ViewBookmarkType="DocumentWell" DockedWidth="966"/>
+											</DocumentGroup>
+										</DocumentGroupContainer>
+										<DockGroup DockedHeight="192" DockedWidth="512">
+											<TabGroup DockedHeight="192" DockedWidth="512">
+												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{f2e84780-2af1-11d1-a7fa-00a0c9110051}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
+												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{4a18f9d0-b838-11d0-93eb-00a0c90f2734}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
+												<wm:ToolWindowView ForceCreate="ForceCreate" Name="T:1:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="T:2:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="T:3:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="T:4:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{0f887920-c2b6-11d2-9375-0080c747d9a0}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{0f887921-c2b6-11d2-9375-0080c747d9a0}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{68487888-204a-11d3-87eb-00c04f7971a5}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{73f6dd5b-437e-11d3-b88e-00c04f79f802}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
+												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{cdbdee54-b399-484b-b763-db2c3393d646}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
+											</TabGroup>
+											<TabGroup DockedHeight="192" DockedWidth="100">
+												<ViewBookmark Name="ST:0:0:{53024d34-0ef5-11d3-87e0-00c04f7971a5}" DockedHeight="192" DockedWidth="100"/>
+												<ViewBookmark Name="ST:0:0:{e830ec50-c2b5-11d2-9375-0080c747d9a0}" DockedHeight="192" DockedWidth="100"/>
+												<ViewBookmark Name="ST:0:0:{cf2ddc32-8cad-11d2-9302-005345000000}" DockedHeight="192" DockedWidth="100"/>
+												<ViewBookmark Name="ST:0:0:{fdffccf2-5f63-404f-86ad-33693f544948}" DockedHeight="192" DockedWidth="100"/>
+											</TabGroup>
+											<TabGroup DockedHeight="192" DockedWidth="512">
+												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{0504ff91-9d61-11d0-a794-00a0c9110051}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
+												<wm:ToolWindowView Name="ST:0:0:{637792aa-f332-4bb5-be6c-066b0e88eced}" DockedHeight="192" DockedWidth="512" FloatingHeight="199.68" FloatingWidth="747.52"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{28836128-fc2c-11d2-a433-00c04f72d18a}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{ecb7191a-597b-41f5-9843-03a4cf275dde}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
+												<ViewBookmark Name="ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}" DockedHeight="192" DockedWidth="512"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{588470cc-84f8-4a57-9ac4-86bca0625ff4}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{4a9b7e51-aa16-11d0-a8c5-00a0c921a4d2}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{5415ea3a-d813-4948-b51e-562082ce0887}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{a0c5197d-0ac7-4b63-97cd-8872a789d233}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{2456bd12-ecf7-4988-a4a6-67d49173f564}" DockedHeight="192" DockedWidth="512" FloatingHeight="199.68" FloatingWidth="747.52"/>
+												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="DontForceCreate" Name="ST:0:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}" DockedHeight="192" DockedWidth="512" FloatingHeight="199.68" FloatingWidth="747.52"/>
+												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{905da7d1-18fd-4a46-8d0f-a5ff58ada9de}" DockedHeight="192" DockedWidth="512" FloatingHeight="199.68" FloatingWidth="747.52"/>
+												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{519e8a32-1c95-4a42-956f-2cee2f28eb0f}" DockedHeight="192" DockedWidth="512" FloatingHeight="199.68" FloatingWidth="747.52"/>
+												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{92547016-2bd0-4dfe-bd4f-5b52bdce0037}" DockedHeight="192" DockedWidth="512" FloatingHeight="199.68" FloatingWidth="747.52"/>
+											</TabGroup>
+										</DockGroup>
+									</DockGroup>
+									<TabGroup IsVisible="True" DockedHeight="652.8" DockedWidth="174.08">
+										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{ed485b08-5acf-4ce9-8e13-699174ea0201}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="2" IconResourceID="6650" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="614.4" FloatingWidth="276.48"/>
+										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" IconIndex="0" IconResourceID="4" IconResourcePackage="8d8529d3-625d-4496-8354-3dad630ecc1b" Name="ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{3addf8e2-81cc-41a0-9785-dbd2d86064bd}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="614.4" FloatingWidth="276.48"/>
+										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{0db31cc8-2322-4f59-a610-1fdc8423df77}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="614.4" FloatingWidth="276.48"/>
+										<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="6651" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="1" IconResourceID="6650" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}" IsSelected="True" IsVisible="True" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView Name="ST:0:0:{ecdd9ee0-ac6b-11d0-89f9-00a0c9110055}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{2d7728c2-de0a-45b5-99aa-89b609dfde73}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{66dba47c-61df-11d2-aa79-00c04f990343}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{4a791147-19e4-11d3-b86b-00c04f79f802}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{73f6dd58-437e-11d3-b88e-00c04f79f802}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{57dc5d59-11c2-4955-a7b4-d7699d677e93}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{07cd18b4-3ba1-11d2-890a-0060083196c6}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{dd1ddd20-d59b-11da-a94d-0800200c9a66}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{a34b1c5d-6d37-4a0c-a8b0-99f8e8158b48}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
+									</TabGroup>
+								</DockGroup>
+							</DockRoot>
+						</AutoHideRoot>
+					</MainSite>
+					<FloatSite FloatingHeight="76.8" FloatingWidth="337.92">
+						<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{53024d34-0ef5-11d3-87e0-00c04f7971a5}" DockedHeight="100" DockedWidth="100" FloatingHeight="76.8" FloatingWidth="337.92"/>
+					</FloatSite>
+					<FloatSite FloatingHeight="76.8" FloatingWidth="337.92">
+						<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{e830ec50-c2b5-11d2-9375-0080c747d9a0}" DockedHeight="100" DockedWidth="100" FloatingHeight="76.8" FloatingWidth="337.92"/>
+					</FloatSite>
+					<FloatSite FloatingHeight="153.6" FloatingWidth="337.92">
+						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="7" IconResourceID="6650" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{cf2ddc32-8cad-11d2-9302-005345000000}" DockedHeight="100" DockedWidth="100" FloatingHeight="153.6" FloatingWidth="337.92"/>
+					</FloatSite>
+					<FloatSite FloatingHeight="614.4" FloatingWidth="819.2">
+						<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{fdffccf2-5f63-404f-86ad-33693f544948}" DockedHeight="100" DockedWidth="100" FloatingHeight="614.4" FloatingWidth="819.2"/>
+					</FloatSite>
+					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
+						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="304" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{1ea986c6-340f-42c8-892e-f5779818d569}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
+					</FloatSite>
+					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
+						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="305" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{ab97f511-6af2-4d27-b468-e4048600093e}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
+					</FloatSite>
+					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
+						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="308" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{0024bee0-bce9-484f-afa7-b5647916c26b}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
+					</FloatSite>
+					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
+						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="307" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{e23045c1-967d-4e64-9ed1-d698de65807f}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
+					</FloatSite>
+					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
+						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="308" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{435ad293-774d-49c6-9e2d-3740c322be52}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
+					</FloatSite>
+					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
+						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="303" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{ae42d903-e5a3-417d-ba25-3ce77b315eed}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
+					</FloatSite>
+					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
+						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="309" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{b2bc9916-e3e6-43a8-ad5f-3bdb95f53db5}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
+					</FloatSite>
+					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
+						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="306" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{532ddd98-f6a6-4a76-a84e-4aea5211f733}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
+					</FloatSite>
+					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
+						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="311" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{7dd08ad7-93b2-491f-a0e8-ee2bb4e78240}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
+					</FloatSite>
+					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
+						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="313" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{888c821a-6430-40bd-9bfe-1610b91df560}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
+					</FloatSite>
+				</WindowProfile>
+			</NoToolWin>
 			<Debug>
 				<WindowProfile xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:wm="clr-namespace:Microsoft.VisualStudio.Platform.WindowManagement;assembly=Microsoft.VisualStudio.Platform.WindowManagement" Name="Debug" xmlns="clr-namespace:Microsoft.VisualStudio.PlatformUI.Shell;assembly=Microsoft.VisualStudio.Shell.ViewManager">
 					<MainSite IsVisible="True">
@@ -2521,179 +2682,6 @@
 					</FloatSite>
 				</WindowProfile>
 			</Debug>
-			<NoToolWin>
-				<WindowProfile xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:wm="clr-namespace:Microsoft.VisualStudio.Platform.WindowManagement;assembly=Microsoft.VisualStudio.Platform.WindowManagement" Name="NoToolWin" xmlns="clr-namespace:Microsoft.VisualStudio.PlatformUI.Shell;assembly=Microsoft.VisualStudio.Shell.ViewManager">
-					<MainSite IsVisible="True">
-						<AutoHideRoot IsVisible="True" DockedHeight="*" DockedWidth="*">
-							<AutoHideChannel Orientation="Vertical"/>
-							<AutoHideChannel Dock="Right" Orientation="Vertical"/>
-							<AutoHideChannel Dock="Top"/>
-							<AutoHideChannel Dock="Bottom" IsVisible="True">
-								<AutoHideGroup IsVisible="True">
-									<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" IconIndex="3" IconResourceID="6650" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}" IsVisible="True" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
-								</AutoHideGroup>
-							</AutoHideChannel>
-							<DockRoot IsVisible="True" DockedHeight="*" DockedWidth="*">
-								<DockGroup IsVisible="True" DockedHeight="*" DockedWidth="*">
-									<TabGroup DockedHeight="652.8" DockedWidth="174.08">
-										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{099ca9ea-0ae4-4e31-a7e4-fe09bd1715cc}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="614.4" FloatingWidth="256"/>
-										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" IconIndex="0" IconResourceID="6650" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView Name="ST:0:0:{9f3ec988-1174-4746-a66a-3969715d1fc7}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{5b6781c0-e99d-11d0-9954-00a0c91bc8e5}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{1cba9826-3184-4799-a184-784e41b56398}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="384" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{38ed9834-0c97-445b-bd1d-f78f3e08afac}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="384" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{402dc223-d700-4029-866f-acee803f3f0c}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="384" FloatingWidth="204.8"/>
-									</TabGroup>
-									<DockGroup Orientation="Vertical" IsVisible="True" DockedHeight="*" DockedWidth="*">
-										<TabGroup DockedHeight="153.6" DockedWidth="819.2">
-											<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="T:1:0:{350f9856-a72b-11d2-8ad0-00c04f79e479}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="153.6" FloatingWidth="614.4"/>
-											<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="T:2:0:{350f9856-a72b-11d2-8ad0-00c04f79e479}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="153.6" FloatingWidth="614.4"/>
-											<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="T:3:0:{350f9856-a72b-11d2-8ad0-00c04f79e479}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="153.6" FloatingWidth="614.4"/>
-											<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="T:4:0:{350f9856-a72b-11d2-8ad0-00c04f79e479}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="153.6" FloatingWidth="614.4"/>
-											<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{ca4b8ff5-bfc7-11d2-9929-00c04f68fdaf}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="153.6" FloatingWidth="614.4"/>
-											<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{51c76317-9037-4cf2-a20a-6206fd30b4a1}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="153.6" FloatingWidth="614.4"/>
-											<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{e62ce6a0-b439-11d0-a79d-00a0c9110051}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="153.6" FloatingWidth="614.4"/>
-											<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{8d263989-ff4b-4a78-90c8-b2ba3fa69311}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="199.68" FloatingWidth="512"/>
-											<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{37aba9be-445a-11d3-9949-00c04f68fd0a}" DockedHeight="153.6" DockedWidth="819.2" FloatingHeight="153.6" FloatingWidth="614.4"/>
-										</TabGroup>
-										<DocumentGroupContainer IsVisible="True" DockedHeight="*" DockedWidth="*">
-											<DocumentGroup>
-												<wm:ToolWindowView ForceCreate="DontForceCreate" Name="ST:0:0:{387cb18d-6153-4156-9257-9ac3f9207bbe}" FloatingHeight="614.4" FloatingWidth="819.2"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="DontForceCreate" Name="ST:0:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}" FloatingHeight="537.6" FloatingWidth="716.8"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{46c87f81-5a06-43a8-9e25-85d33bac49f8}" FloatingHeight="537.6" FloatingWidth="716.8"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}" FloatingHeight="384" FloatingWidth="512"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{cf577b8c-4134-11d2-83e5-00c04f9902c1}" FloatingHeight="384" FloatingWidth="358.4"/>
-												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{99b8fa2f-ab90-4f57-9c32-949f146f1914}" FloatingHeight="614.4" FloatingWidth="819.2"/>
-												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{c79b74ff-f1d7-4c94-aefa-4d22bfe1b1f9}" FloatingHeight="614.4" FloatingWidth="819.2"/>
-												<ViewBookmark Name="D:0:0:{787C37A6-CF5B-4117-8358-B8F32590B5DC}|Helpers.Net.Extensions.Tests\Helpers.Net.Extensions.Tests.csproj|d:\prabir\documents\projects\prabir\helpersdotnet\extensions\src\helpers.net.extensions.tests\inttests.cs||{a6c744a8-0e4a-4fc6-886a-064283054674}" ViewBookmarkType="DocumentWell"/>
-												<ViewBookmark Name="D:0:0:Family: Live Templates, Categories: [], Description:  ||{3D47E1EA-6AF9-4A33-8AF1-032F1FD5929A}" ViewBookmarkType="DocumentWell"/>
-												<ViewBookmark Name="D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|&lt;MiscFiles&gt;|D:\candi\Downloads\DotNetOpenAuth-3.4.1.10044\DotNetOpenAuth-3.4.1.10044\Samples\OAuthConsumer\GoogleAddressBook.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
-												<ViewBookmark Name="D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|&lt;MiscFiles&gt;|D:\candi\Downloads\DotNetOpenAuth-3.4.1.10044\DotNetOpenAuth-3.4.1.10044\Samples\DotNetOpenAuth.ApplicationBlock\GoogleConsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
-												<ViewBookmark Name="D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|&lt;MiscFiles&gt;|D:\candi\Downloads\DotNetOpenAuth-3.4.1.10044\DotNetOpenAuth-3.4.1.10044\Samples\OAuthConsumer\App_Code\InMemoryTokenManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
-												<ViewBookmark Name="D:0:0:{A46F017D-7BF5-4801-B7C0-BA13CD9A6D7A}|gc\gc.vcxproj|d:\candi\documents\visual studio 2010\Projects\gc\gc\list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}" ViewBookmarkType="DocumentWell"/>
-												<ViewBookmark Name="D:0:0:{A46F017D-7BF5-4801-B7C0-BA13CD9A6D7A}|gc\gc.vcxproj|d:\candi\documents\visual studio 2010\Projects\gc\gc\list.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}" ViewBookmarkType="DocumentWell"/>
-												<ViewBookmark Name="D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|&lt;MiscFiles&gt;|D:\Prabir\Documents\Projects\llvmsharp\src\llvm-test\a.s||{8B382828-6202-11D1-8870-0000F87579D2}" ViewBookmarkType="DocumentWell"/>
-												<ViewBookmark Name="D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|&lt;MiscFiles&gt;|D:\Prabir\Documents\Docs\Abac\unmesh\compiler\z#\project_cc\SymTabTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
-												<ViewBookmark Name="D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|&lt;MiscFiles&gt;|D:\Prabir\Desktop\z.ll||{8B382828-6202-11D1-8870-0000F87579D2}" ViewBookmarkType="DocumentWell"/>
-												<ViewBookmark Name="D:0:0:{8E668BE3-A285-4ECF-9CF1-CB75F9AE2CB5}|Test\Test.csproj|d:\prabir\documents\projects\llvmsharp\src\test\parser\codes\good\13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
-												<ViewBookmark Name="D:0:0:{F2171B4C-9186-4EA1-98AF-20469258BC85}|lsc.llvmsharp\lsc.llvmsharp.csproj|d:\prabir\documents\projects\llvmsharp\src\lsc.llvmsharp\expressions\binaryexpression\assignment\addassign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
-												<ViewBookmark Name="D:0:0:{F2171B4C-9186-4EA1-98AF-20469258BC85}|lsc.llvmsharp\lsc.llvmsharp.csproj|d:\prabir\documents\projects\llvmsharp\src\lsc.llvmsharp\expressions\assignment\simpleassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
-												<ViewBookmark Name="D:0:0:{F2171B4C-9186-4EA1-98AF-20469258BC85}|lsc.llvmsharp\lsc.llvmsharp.csproj|d:\prabir\documents\projects\llvmsharp\src\lsc.llvmsharp\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}" ViewBookmarkType="DocumentWell"/>
-											</DocumentGroup>
-											<DocumentGroup DockedWidth="966">
-												<ViewBookmark Name="D:0:0:{D36F25AB-117F-47DE-9999-6697054358A3}|d:\Prabir\Downloads\2009_10_AsmxJson|d:\prabir\downloads\2009_10_asmxjson\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}" ViewBookmarkType="DocumentWell" DockedWidth="966"/>
-											</DocumentGroup>
-										</DocumentGroupContainer>
-										<DockGroup DockedHeight="192" DockedWidth="512">
-											<TabGroup DockedHeight="192" DockedWidth="512">
-												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{f2e84780-2af1-11d1-a7fa-00a0c9110051}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
-												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{4a18f9d0-b838-11d0-93eb-00a0c90f2734}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
-												<wm:ToolWindowView ForceCreate="ForceCreate" Name="T:1:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="T:2:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="T:3:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="T:4:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{0f887920-c2b6-11d2-9375-0080c747d9a0}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{0f887921-c2b6-11d2-9375-0080c747d9a0}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{68487888-204a-11d3-87eb-00c04f7971a5}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{73f6dd5b-437e-11d3-b88e-00c04f79f802}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
-												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{cdbdee54-b399-484b-b763-db2c3393d646}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="614.4"/>
-											</TabGroup>
-											<TabGroup DockedHeight="192" DockedWidth="100">
-												<ViewBookmark Name="ST:0:0:{53024d34-0ef5-11d3-87e0-00c04f7971a5}" DockedHeight="192" DockedWidth="100"/>
-												<ViewBookmark Name="ST:0:0:{e830ec50-c2b5-11d2-9375-0080c747d9a0}" DockedHeight="192" DockedWidth="100"/>
-												<ViewBookmark Name="ST:0:0:{cf2ddc32-8cad-11d2-9302-005345000000}" DockedHeight="192" DockedWidth="100"/>
-												<ViewBookmark Name="ST:0:0:{fdffccf2-5f63-404f-86ad-33693f544948}" DockedHeight="192" DockedWidth="100"/>
-											</TabGroup>
-											<TabGroup DockedHeight="192" DockedWidth="512">
-												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{0504ff91-9d61-11d0-a794-00a0c9110051}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
-												<wm:ToolWindowView Name="ST:0:0:{637792aa-f332-4bb5-be6c-066b0e88eced}" DockedHeight="192" DockedWidth="512" FloatingHeight="199.68" FloatingWidth="747.52"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{28836128-fc2c-11d2-a433-00c04f72d18a}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{ecb7191a-597b-41f5-9843-03a4cf275dde}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
-												<ViewBookmark Name="ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}" DockedHeight="192" DockedWidth="512"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{588470cc-84f8-4a57-9ac4-86bca0625ff4}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{4a9b7e51-aa16-11d0-a8c5-00a0c921a4d2}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{5415ea3a-d813-4948-b51e-562082ce0887}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{a0c5197d-0ac7-4b63-97cd-8872a789d233}" DockedHeight="192" DockedWidth="512" FloatingHeight="192" FloatingWidth="460.8"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{2456bd12-ecf7-4988-a4a6-67d49173f564}" DockedHeight="192" DockedWidth="512" FloatingHeight="199.68" FloatingWidth="747.52"/>
-												<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="DontForceCreate" Name="ST:0:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}" DockedHeight="192" DockedWidth="512" FloatingHeight="199.68" FloatingWidth="747.52"/>
-												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{905da7d1-18fd-4a46-8d0f-a5ff58ada9de}" DockedHeight="192" DockedWidth="512" FloatingHeight="199.68" FloatingWidth="747.52"/>
-												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{519e8a32-1c95-4a42-956f-2cee2f28eb0f}" DockedHeight="192" DockedWidth="512" FloatingHeight="199.68" FloatingWidth="747.52"/>
-												<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{92547016-2bd0-4dfe-bd4f-5b52bdce0037}" DockedHeight="192" DockedWidth="512" FloatingHeight="199.68" FloatingWidth="747.52"/>
-											</TabGroup>
-										</DockGroup>
-									</DockGroup>
-									<TabGroup IsVisible="True" DockedHeight="652.8" DockedWidth="174.08">
-										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{ed485b08-5acf-4ce9-8e13-699174ea0201}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="2" IconResourceID="6650" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="614.4" FloatingWidth="276.48"/>
-										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" IconIndex="0" IconResourceID="4" IconResourcePackage="8d8529d3-625d-4496-8354-3dad630ecc1b" Name="ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{3addf8e2-81cc-41a0-9785-dbd2d86064bd}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="614.4" FloatingWidth="276.48"/>
-										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{0db31cc8-2322-4f59-a610-1fdc8423df77}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="614.4" FloatingWidth="276.48"/>
-										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="1" IconResourceID="6650" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}" IsSelected="True" IsVisible="True" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView Name="ST:0:0:{ecdd9ee0-ac6b-11d0-89f9-00a0c9110055}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{2d7728c2-de0a-45b5-99aa-89b609dfde73}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{66dba47c-61df-11d2-aa79-00c04f990343}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{4a791147-19e4-11d3-b86b-00c04f79f802}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{73f6dd58-437e-11d3-b88e-00c04f79f802}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{57dc5d59-11c2-4955-a7b4-d7699d677e93}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{07cd18b4-3ba1-11d2-890a-0060083196c6}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{dd1ddd20-d59b-11da-a94d-0800200c9a66}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-										<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{a34b1c5d-6d37-4a0c-a8b0-99f8e8158b48}" DockedHeight="652.8" DockedWidth="174.08" FloatingHeight="537.6" FloatingWidth="204.8"/>
-									</TabGroup>
-								</DockGroup>
-							</DockRoot>
-						</AutoHideRoot>
-					</MainSite>
-					<FloatSite FloatingHeight="76.8" FloatingWidth="337.92">
-						<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{53024d34-0ef5-11d3-87e0-00c04f7971a5}" DockedHeight="100" DockedWidth="100" FloatingHeight="76.8" FloatingWidth="337.92"/>
-					</FloatSite>
-					<FloatSite FloatingHeight="76.8" FloatingWidth="337.92">
-						<wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{e830ec50-c2b5-11d2-9375-0080c747d9a0}" DockedHeight="100" DockedWidth="100" FloatingHeight="76.8" FloatingWidth="337.92"/>
-					</FloatSite>
-					<FloatSite FloatingHeight="153.6" FloatingWidth="337.92">
-						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="7" IconResourceID="6650" IconResourcePackage="da9fb551-c724-11d0-ae1f-00a0c90fffc3" Name="ST:0:0:{cf2ddc32-8cad-11d2-9302-005345000000}" DockedHeight="100" DockedWidth="100" FloatingHeight="153.6" FloatingWidth="337.92"/>
-					</FloatSite>
-					<FloatSite FloatingHeight="614.4" FloatingWidth="819.2">
-						<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{fdffccf2-5f63-404f-86ad-33693f544948}" DockedHeight="100" DockedWidth="100" FloatingHeight="614.4" FloatingWidth="819.2"/>
-					</FloatSite>
-					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
-						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="304" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{1ea986c6-340f-42c8-892e-f5779818d569}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
-					</FloatSite>
-					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
-						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="305" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{ab97f511-6af2-4d27-b468-e4048600093e}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
-					</FloatSite>
-					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
-						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="308" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{0024bee0-bce9-484f-afa7-b5647916c26b}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
-					</FloatSite>
-					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
-						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="307" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{e23045c1-967d-4e64-9ed1-d698de65807f}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
-					</FloatSite>
-					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
-						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="308" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{435ad293-774d-49c6-9e2d-3740c322be52}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
-					</FloatSite>
-					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
-						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="303" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{ae42d903-e5a3-417d-ba25-3ce77b315eed}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
-					</FloatSite>
-					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
-						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="309" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{b2bc9916-e3e6-43a8-ad5f-3bdb95f53db5}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
-					</FloatSite>
-					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
-						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="306" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{532ddd98-f6a6-4a76-a84e-4aea5211f733}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
-					</FloatSite>
-					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
-						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="311" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{7dd08ad7-93b2-491f-a0e8-ee2bb4e78240}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
-					</FloatSite>
-					<FloatSite FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450">
-						<wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="313" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{888c821a-6430-40bd-9bfe-1610b91df560}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
-					</FloatSite>
-				</WindowProfile>
-			</NoToolWin>
 		</Category>
 	</Category>
 	<Category name="Code Analysis" Category="{533A534C-AD06-4B18-BBBC-BFD7C74F58CE}" Package="{72391CE3-743A-4a55-8927-4217541F6517}" RegisteredName="Code Analysis" PackageName="StanPackage"/>
